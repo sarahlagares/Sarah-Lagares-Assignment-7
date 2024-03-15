@@ -1,6 +1,6 @@
 package com.coderscampus;
 
-public class CustomListArray<T> implements ListCustom<T> {
+public class CustomArrayList<T> implements CustomList<T> {
 	private Object[] items = new Object[10];
 	private int size = 0; // Current number of elements in the list
 
