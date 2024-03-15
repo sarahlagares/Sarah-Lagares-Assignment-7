@@ -10,7 +10,7 @@ public class CustomListApplication {
 			myCustomList.add("Element " + i);
 		}
 
-		// Validate that all the elements 
+		// Validate all the elements 
 		for (int i = 0; i < myCustomList.getSize(); i++) {
 			System.out.println(myCustomList.get(i));
 		}
